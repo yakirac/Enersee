@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
+	<classpathentry kind="lib" path="/Users/Yekara/Documents/CDTM SmartMeter/rxtx-2.1-7-bins-r2/RXTXcomm.jar">
+		<attributes>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="Enersee/libs"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/Yekara/Documents/CDTM SmartMeter/mysql-connector-java-5.1.17/mysql-connector-java-5.1.17-bin.jar"/>
+	<classpathentry kind="lib" path="/usr/local/javadb10.5.3.0/lib/derby.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="file:/usr/local/javadb10.5.3.0/javadoc/jdbc4/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/Yekara/Documents/CDTM SmartMeter/Chart2D/Chart2D.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="file:/Users/Yekara/Documents/CDTM SmartMeter/Chart2D/javadocs/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="src"/>
+</classpath>
