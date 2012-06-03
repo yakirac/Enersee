@@ -87,12 +87,15 @@ ul#menu li a.active, ul#menu li a:hover {
 */
 .selection_form {
 	float:left;
-	padding-top:20px;
+	padding-top:0px;
 	padding-right:45px;
 }
 .chart {
 	float:right;
-	padding-top:45px;
+	/*padding-top:10px;*/
+	top: 10%;
+	height: 480px;
+	width: 640px;
 }
 fieldset {
 	border:none;

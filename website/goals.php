@@ -18,7 +18,7 @@
             	<ul id="menu">
                 	<li><a href="http://129.187.150.139/Enersee/index.php">Home</a></li>
                     <li><a href="http://129.187.150.139/Enersee/about.php">About</a></li>
-                    <li><a href="http://129.187.150.139/Enersee/report.php">Report</a></li>
+                    <li><a href="http://129.187.150.139/Enersee/reportTre.php">Report</a></li>
                     <li><a href="http://129.187.150.139/Enersee/goals.php">Goals</a></li>
                     <li><a href="http://129.187.150.139/Enersee/downloads.php">Downloads</a></li>
                 </ul>

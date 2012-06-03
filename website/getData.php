@@ -14,8 +14,8 @@ mysql_select_db("$db") ;
 
 
 //execute the SQL query and return records
-$result = mysql_query("SELECT TIME_TO_SEC(t) AS tts, d, P_L1 FROM $tb");
-//$result = mysql_query("SELECT t, d, P_L1 FROM $tb");
+//$result = mysql_query("SELECT TIME_TO_SEC(t) AS tts, d, P_L1 FROM $tb");
+$result = mysql_query("SELECT t, d, P_L1 FROM $tb");
 
 $num = mysql_num_rows($result);
 
@@ -37,7 +37,7 @@ for($y = 0; $y < count($col_ids); $y++){
 //Get data from result and populate table
 $rc = 0;
 
-if($num > 0){
+/*if($num > 0){
 	while($row = mysql_fetch_array($result)){
 		$d = $row['tts'];
 		//echo $d;
@@ -49,9 +49,9 @@ if($num > 0){
 	}
 }
 
-echo json_encode($dt);
+echo json_encode($dt);*/
 
-/*if($num > 0) {
+if($num > 0) {
 	for ($i = 0; $i < $num; $i++){
 		$json["time"] = mysql_result($result, $i, "t");
 		$json["date"] = mysql_result($result, $i, "d");
@@ -62,6 +62,6 @@ echo json_encode($dt);
 }
 
 echo json_encode($json2);
-*/
+
 
 ?>
